@@ -699,91 +699,128 @@
     </section><!-- /Testimonials Section -->
     
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+<!-- Contact Section -->
+<section id="testimonials" class="testimonials section light-background">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <p>Here’s what my clients and peers have to say about working with me. I pride myself on delivering quality solutions and fostering meaningful professional relationships.</p>
+  </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 1,
+              "spaceBetween": 40
+            },
+            "1200": {
+              "slidesPerView": 3,
+              "spaceBetween": 20
+            }
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
 
-          <div class="col-lg-5">
-
-            <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>debajyoti.475@gmail.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.4715719277744!2d88.40538320000002!3d22.3872763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026d0038593213%3A0xf6cb8319b64af0e7!2sDeep%20Enterprise!5e0!3m2!1sen!2sin!4v1676961268712!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+        <!-- Testimonial 1 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>"Debajyoti’s technical expertise and dedication were instrumental in delivering our project on time. His problem-solving skills are exceptional!"</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/client-1.jpg" class="testimonial-img" alt="Client 1">
+            <h3>Anannya Kamar</h3>
+            <h4>Software Engineer</h4>
           </div>
+        </div><!-- End Testimonial 1 -->
 
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
+        <!-- Testimonial 2 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>"Working with Debajyoti was a pleasure. His attention to detail and innovative mindset brought great value to our team."</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/client-2.jpg" class="testimonial-img" alt="Client 2">
+            <h3>Rajdeep Ghosh</h3>
+            <h4>Project Manager</h4>
+          </div>
+        </div><!-- End Testimonial 2 -->
 
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Your Name</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
-                </div>
+        <!-- Testimonial 3 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>"Debajyoti’s skills in AI and IoT truly stand out. He delivered a solution that exceeded our expectations and performed flawlessly."</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/client-3.jpg" class="testimonial-img" alt="Client 3">
+            <h3>Arijt Ghata</h3>
+            <h4>IoT Specialist</h4>
+          </div>
+        </div><!-- End Testimonial 3 -->
 
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
+        <!-- Testimonial 4 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>"His passion for technology and robotics is unmatched. Debajyoti always brings innovative ideas and executes them brilliantly."</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/client-4.jpg" class="testimonial-img" alt="Client 4">
+            <h3>Akash Samui</h3>
+            <h4>Robotics Engineer</h4>
+          </div>
+        </div><!-- End Testimonial 4 -->
 
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Message</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
+        <!-- Testimonial 5 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>"I had the opportunity to work with Debajyoti on multiple projects. His versatility and commitment to quality are truly inspiring."</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/client-5.jpg" class="testimonial-img" alt="Client 5">
+            <h3>Radhyashyam Naskar</h3>
+            <h4>Full Stack Developer</h4>
+          </div>
+        </div><!-- End Testimonial 5 -->
 
       </div>
+      <div class="swiper-pagination"></div>
+    </div>
 
-    </section><!-- /Contact Section -->
+    <!-- Map Update -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.4715719277744!2d88.4075003!3d22.387182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026d5956aa34f5%3A0xa93d158d3689e2d8!2sAlgorithm%20Architects%20-%20HQ!5e0!3m2!1sen!2sin!4v1676961268712!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 270px; margin-top: 30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p class="text-center">Location: Kolkata, West Bengal, India</p>
+
+  </div>
+
+</section><!-- /Testimonials Section -->
+
+
 
   </main>
 
