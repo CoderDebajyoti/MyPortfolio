@@ -16,6 +16,14 @@ Welcome to my personal portfolio website! This is where I showcase my skills, pr
 - **Libraries**: Bootstrap (for responsive layout), AOS (for animations)
 - **Version Control**: Git and GitHub
 
+## Indexed Pages
+
+The following pages are indexed for search engines:
+
+- [Starter Page](starter-page.html)
+- [Portfolio Details](portfolio-details.html)
+- [Service Details](service-details.html)
+
 ## Getting Started
 
 1. Clone this repository to your local machine:
